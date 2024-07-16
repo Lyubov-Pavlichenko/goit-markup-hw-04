@@ -323,10 +323,9 @@ flex-direction: row;
 }
   
 .links-position {
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
     width: 40px;
     height: 40px;
-   
     margin-top: 8px; 
     margin-bottom: 32px;
   }
@@ -352,7 +351,7 @@ background-color: #31d0aa;
 
 .portfolio {
     padding: 120px 0 120px 0; 
-    background-color: #f4f4f ;
+    background-color: #f4f4fd;
 }
 
 .portfolio-title {
