@@ -333,8 +333,6 @@ a {
 }  
 
 .soc-lin:hover,
-.soc-lin:focus,
-.soc-lin:hover,
 .soc-lin:focus {
 background-color:  #404bbf;
 }
@@ -512,7 +510,12 @@ background-color:  #404bbf;
    align-items: center;
    justify-content: center;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}  
+} 
+
+.soc-lin:hover,
+.soc-lin:focus {
+    background-color: #31d0aa; 
+}
 
 .links-footer {
     display: flex;  
@@ -521,8 +524,7 @@ background-color:  #404bbf;
    }
 
 
-.links-page { 
-     
+.links-page {  
     max-width: 208px;
     padding-top: 108px;
    
